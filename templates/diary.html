@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for diary in diaries %}
+{{diary.time}}--{{diary.memo}}<BR>
+{% endfor %}
+{% endblock %}
